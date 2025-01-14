@@ -21,8 +21,6 @@ if self?.viewModel.feedbackType == 1 {
 
 
 
-// 모듈 관련 입니다. 1분마다 분석하는 부분입니다.
-
 
 func onSensorReceived(_ sensorData: SensorData) {
     self.recordingSensorDatas.append(sensorData)
